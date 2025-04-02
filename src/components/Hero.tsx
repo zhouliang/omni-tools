@@ -48,11 +48,11 @@ export default function Hero() {
             display={'inline'}
             color={'primary'}
           >
-            Omni Tools
+            Hi Tools
           </Typography>
         </Typography>
       </Stack>
-      <Typography
+      {/* <Typography
         sx={{ textAlign: 'center' }}
         fontSize={{ xs: 15, md: 20 }}
         mb={2}
@@ -61,7 +61,7 @@ export default function Hero() {
         getting things done quickly! Access thousands of user-friendly utilities
         for editing images, text, lists, and data, all directly from your
         browser.
-      </Typography>
+      </Typography> */}
 
       <Autocomplete
         sx={{ mb: 2 }}

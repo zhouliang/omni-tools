@@ -5,7 +5,7 @@ import Button from '@mui/material/Button';
 import IconButton from '@mui/material/IconButton';
 import MenuIcon from '@mui/icons-material/Menu';
 import { Link, useNavigate } from 'react-router-dom';
-import logo from 'assets/logo.png';
+import logo from 'assets/hitools.png';
 import {
   Drawer,
   List,
@@ -37,37 +37,37 @@ const Navbar: React.FC<NavbarProps> = ({ onSwitchTheme }) => {
   ];
 
   const buttons: ReactNode[] = [
-    <DarkModeIcon onClick={onSwitchTheme} style={{ cursor: 'pointer' }} />,
-    <Icon
-      onClick={() => window.open('https://discord.gg/SDbbn3hT4b', '_blank')}
-      style={{ cursor: 'pointer' }}
-      fontSize={30}
-      icon={'ic:baseline-discord'}
-    />,
-    <iframe
-      src="https://ghbtns.com/github-btn.html?user=iib0011&repo=omni-tools&type=star&count=true&size=large"
-      frameBorder="0"
-      scrolling="0"
-      width="150"
-      height="30"
-      title="GitHub"
-    ></iframe>,
-    <Button
-      onClick={() => {
-        window.open('https://buymeacoffee.com/iib0011', '_blank');
-      }}
-      sx={{ borderRadius: '100px' }}
-      variant={'contained'}
-      startIcon={
-        <Icon
-          style={{ cursor: 'pointer' }}
-          fontSize={25}
-          icon={'mdi:heart-outline'}
-        />
-      }
-    >
-      Buy me a coffee
-    </Button>
+    <DarkModeIcon onClick={onSwitchTheme} style={{ cursor: 'pointer' }} />
+    // <Icon
+    //   onClick={() => window.open('https://discord.gg/SDbbn3hT4b', '_blank')}
+    //   style={{ cursor: 'pointer' }}
+    //   fontSize={30}
+    //   icon={'ic:baseline-discord'}
+    // />,
+    // <iframe
+    //   src="https://ghbtns.com/github-btn.html?user=iib0011&repo=omni-tools&type=star&count=true&size=large"
+    //   frameBorder="0"
+    //   scrolling="0"
+    //   width="150"
+    //   height="30"
+    //   title="GitHub"
+    // ></iframe>,
+    // <Button
+    //   onClick={() => {
+    //     window.open('https://buymeacoffee.com/iib0011', '_blank');
+    //   }}
+    //   sx={{ borderRadius: '100px' }}
+    //   variant={'contained'}
+    //   startIcon={
+    //     <Icon
+    //       style={{ cursor: 'pointer' }}
+    //       fontSize={25}
+    //       icon={'mdi:heart-outline'}
+    //     />
+    //   }
+    // >
+    //   Buy me a coffee
+    // </Button>
   ];
   const drawerList = (
     <List>

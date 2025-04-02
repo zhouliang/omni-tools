@@ -41,7 +41,7 @@ export default function ToolLayout({
       sx={{ backgroundColor: 'background.default' }}
     >
       <Helmet>
-        <title>{`${title} - Omni Tools`}</title>
+        <title>{`${title} - Hi Tools`}</title>
       </Helmet>
       <Box width={'85%'}>
         <ToolHeader
